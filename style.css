@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(120deg, #6ec72d 30%, #2827cc 70%);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  background: linear-gradient(120deg, #e21717 30%, #00d84a 70%);
+  padding: 50px 100px 50px 100px;
+  border-radius: 20px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 50px;
+}
+
+textarea {
+  width: 500px;
+  outline: none;
+  font-size: 20px;
+  align-self: center;
+}
+
+#btn {
+  padding: 1rem 2rem;
+  background-color: #2827cc;
+  color: #ffffff;
+  font-size: 25px;
+  border: none;
+  border-radius: 20px;
+  align-self: center;
+}
+.result {
+  align-self: center;
+  font-size: 30px;
+}
